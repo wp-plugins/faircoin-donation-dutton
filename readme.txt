@@ -12,7 +12,32 @@ Defines a shortcode for embeddeding the standard coinwidget button on your Wordp
 This plugin adds the shortcode [faircoinwidget] to embed a faircoin donation button.
 
 Anywhere in a post or template (or sidebar widget if you have the appropriate plugins installed) you can include the text `[coinwidget address="your faircoin address"]` and it will be replaced with a button as seen on http://getfaircoin.net/widget/.
-For advanced visual options take a look on the website.
+
+Supported attributes as documented here http://getfaircoin.net/widget/
+
+* address - default ""
+* currency - default "faircoin"
+* counter - default "count"
+* alignment - default "bl"
+* qrcode - default "true" 
+* auto_show - default "false"
+* decimals - default "4"
+* lbl_button - default "Donate"
+* lbl_address - default "My Faircoin Address:"
+* lbl_count - default "donations"
+* lbl_amount - default "FAIR"
+
+Example:
+
+`[coinwidget
+	address="fQntEehR37KGrqGQyLbaNxcpchtdNqWmXA" currency="faircoin"
+	counter="count" alignment="al" qrcode="false" auto_show="true"
+	lbl_button="Press Me" lbl_address="Me Place" lbl_count="Gimme"
+	lbl_amount="$$$"]`
+
+or simply:
+
+`[coinwidget address="<your faircoin address>"]` 
 
 This plugin is now based on a forked version from the original coinwidget (by Sccot).
 Faircoin version available at https://github.com/Yyuri/FairCoinWidget
