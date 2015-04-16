@@ -30,7 +30,7 @@ Supported attributes as documented here http://getfaircoin.net/widget/
 Example:
 
 `[coinwidget
-	address="fQntEehR37KGrqGQyLbaNxcpchtdNqWmXA" currency="faircoin"
+	address="fTSjheCjvTCHWkTqggn2bwyk13Cp32mvt2" currency="faircoin"
 	counter="count" alignment="al" qrcode="false" auto_show="true"
 	lbl_button="Press Me" lbl_address="Me Place" lbl_count="Gimme"
 	lbl_amount="$$$"]`
