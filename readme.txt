@@ -96,6 +96,9 @@ Anywhere in a post or template (or sidebar widget if you have the appropriate pl
 2. The expanded popup when the user clicks on the button.
 
 == Changelog ==
+= 1.1 =
+* 2014-05-01
+* Showing number of transactions from the chain.
 
 = 1.0 =
 * 2014-04-11
